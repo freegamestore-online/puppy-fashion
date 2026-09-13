@@ -1,5 +1,5 @@
 {
-  "name": "@APPNAME/web",
+  "name": "@puppy-fashion/web",
   "private": true,
   "type": "module",
   "scripts": {
