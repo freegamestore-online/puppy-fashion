@@ -1,8 +1,8 @@
 export type AccessoryId =
-  | "crown" | "bow" | "tophat" | "sunglasses"
-  | "necklace" | "scarf"
-  | "jumper" | "bag"
-  | "socks" | "shoes";
+  | "tiara" | "flowerband" | "tophat" | "sunglasses" | "beret"
+  | "pearls" | "bowtie" | "bandana"
+  | "sweater" | "dress" | "raincoat"
+  | "boots" | "sneakers" | "socks";
 
 export interface Accessory {
   id: AccessoryId;
