@@ -10,9 +10,9 @@ const ACCESSORIES: Accessory[] = [
   { id: "tiara",      label: "Tiara",    emoji: "👸", slot: "head", color: "bg-pink-50 border-pink-300 dark:bg-pink-950 dark:border-pink-700" },
   { id: "flowerband", label: "Flowers",  emoji: "🌸", slot: "head", color: "bg-green-50 border-green-300 dark:bg-green-950 dark:border-green-700" },
   { id: "tophat",     label: "Top Hat",  emoji: "🎩", slot: "head", color: "bg-gray-100 border-gray-400 dark:bg-gray-800 dark:border-gray-600" },
-  { id: "sunglasses", label: "Sunnies",  emoji: "🕶️", slot: "head", color: "bg-blue-50 border-blue-300 dark:bg-blue-950 dark:border-blue-700" },
+  { id: "sunglasses", label: "Sunnies",  emoji: "🕶️", slot: "eyes", color: "bg-blue-50 border-blue-300 dark:bg-blue-950 dark:border-blue-700" },
   { id: "beret",      label: "Beret",    emoji: "🧢", slot: "head", color: "bg-red-50 border-red-300 dark:bg-red-950 dark:border-red-700" },
-  { id: "pearls",     label: "Pearls",   emoji: "🪬", slot: "neck", color: "bg-rose-50 border-rose-300 dark:bg-rose-950 dark:border-rose-700" },
+  { id: "pearls",     label: "Pearls",   emoji: "📿", slot: "neck", color: "bg-rose-50 border-rose-300 dark:bg-rose-950 dark:border-rose-700" },
   { id: "bowtie",     label: "Bow Tie",  emoji: "🎀", slot: "neck", color: "bg-red-50 border-red-300 dark:bg-red-950 dark:border-red-700" },
   { id: "bandana",    label: "Bandana",  emoji: "🧣", slot: "neck", color: "bg-orange-50 border-orange-300 dark:bg-orange-950 dark:border-orange-700" },
   { id: "dress",      label: "Dress",    emoji: "👗", slot: "body", color: "bg-fuchsia-50 border-fuchsia-300 dark:bg-fuchsia-950 dark:border-fuchsia-700" },
@@ -23,9 +23,9 @@ const ACCESSORIES: Accessory[] = [
   { id: "socks",      label: "Socks",    emoji: "🧦", slot: "feet", color: "bg-purple-50 border-purple-300 dark:bg-purple-950 dark:border-purple-700" },
 ];
 
-const SLOTS: Accessory["slot"][] = ["head", "neck", "body", "feet"];
+const SLOTS: Accessory["slot"][] = ["head", "eyes", "neck", "body", "feet"];
 const SLOT_LABELS: Record<Accessory["slot"], string> = {
-  head: "Head", neck: "Neck", body: "Body", feet: "Feet",
+  head: "Head", eyes: "Eyes", neck: "Neck", body: "Body", feet: "Feet",
 };
 
 type PetId = "pug" | "cat" | "budgie";

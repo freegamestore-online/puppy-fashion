@@ -8,6 +8,6 @@ export interface Accessory {
   id: AccessoryId;
   label: string;
   emoji: string;
-  slot: "head" | "neck" | "body" | "feet";
+  slot: "head" | "eyes" | "neck" | "body" | "feet";
   color: string;
 }
